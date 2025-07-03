@@ -1,0 +1,73 @@
+/* Adminpage.css */
+.sidebar-container {
+  background-color: #f4f4f4;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #0d6efd; /* Blue background */
+  color: #fff;
+  height: 100vh;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+}
+
+/* .sidebar.collapsed {
+  width: 100px; 
+} */
+
+.sidebar-header {
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #0056b3; /* Darker blue for header */
+}
+
+.sidebar a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.sidebar a:hover {
+  background-color: #0069d9;
+  border-radius: 5px;
+}
+
+.main-content {
+  padding: 30px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #003366;
+  border-radius: 4px;
+}
+
+h4 {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  .sidebar.collapsed {
+    width: 100%;
+  }
+}

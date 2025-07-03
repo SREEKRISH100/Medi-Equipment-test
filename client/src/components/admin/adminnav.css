@@ -1,0 +1,28 @@
+.navbar{
+    background-color:#98a5be;
+    height: 100%;
+    width: 100%;
+  }
+  .h1, h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -200px;
+  }
+  .nav{
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding: 35px; 
+   margin-left: 15px;
+
+  
+  
+  }
+  .navbar-nav {
+    margin-right: 700px;
+  }
+  .nav:hover{
+    color: #f5f6f8;
+    text-decoration: none;
+    
+  }
+ 
